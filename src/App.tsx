@@ -3,7 +3,6 @@ import HeroSection from './components/HeroSection';
 import MissionVisionSection from './components/MissionVisionSection';
 import HowItWorksSection from './components/HowItWorksSection';
 import WhoWeServeSection from './components/WhoWeServeSection';
-import FoundingTeamSection from './components/FoundingTeamSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -16,7 +15,6 @@ export default function ScalpelRunnersLanding() {
       <MissionVisionSection />
       <HowItWorksSection />
       <WhoWeServeSection />
-      <FoundingTeamSection />
       <ContactForm />
       <Footer />
       <ScrollToTop />
