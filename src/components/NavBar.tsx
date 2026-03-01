@@ -3,7 +3,7 @@ export default function NavBar() {
     <nav className="fixed top-0 left-0 right-0 z-[1000] py-5 px-4 sm:px-8 bg-white/[0.96] backdrop-blur-[12px] border-b border-black/[0.08] [animation:slideDown_0.5s_ease-out]">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2 sm:gap-[0.85rem]">
-          <img src="/logo.svg" alt="Scalpel Runners" className="hidden sm:block h-10 w-auto" />
+          <img src="/SR Logo 1.svg" alt="Scalpel Runners" className="hidden sm:block h-10 w-auto" />
           <div>
             <span className="font-playfair text-[1.15rem] sm:text-[1.4rem] font-extrabold text-(--color-brand) tracking-[-0.01em]">
               Scalpel Runners
