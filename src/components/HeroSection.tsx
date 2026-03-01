@@ -1,8 +1,8 @@
 export default function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center pt-28 px-8 pb-20 bg-[linear-gradient(160deg,#fff_55%,#f4eded_100%)] relative overflow-hidden">
+    <section className="min-h-screen flex items-center pt-24 sm:pt-28 px-5 sm:px-8 pb-20 bg-[linear-gradient(160deg,#fff_55%,#f4eded_100%)] relative overflow-hidden">
       {/* decorative cross */}
-      <div className="absolute right-[8%] top-[75%] -translate-y-1/2 opacity-[0.04] text-[28rem] leading-none select-none text-(--color-brand) font-black [animation:float_18s_ease-in-out_infinite]">✚</div>
+      <div className="absolute right-[8%] top-[75%] -translate-y-1/2 opacity-[0.04] text-[14rem] sm:text-[28rem] leading-none select-none text-(--color-brand) font-black [animation:float_18s_ease-in-out_infinite]">✚</div>
 
       <div className="max-w-[820px] mx-auto relative z-[1]">
         <div className="text-[0.8rem] tracking-[0.2em] uppercase text-(--color-brand) mb-7 font-bold font-inter [animation:fadeUp_0.7s_ease-out_0.2s_backwards]">
