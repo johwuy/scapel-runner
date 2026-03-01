@@ -3,6 +3,9 @@ import { useState } from 'react';
 const inputClass = "w-full py-4 px-5 text-[1.05rem] border-2 border-[#ddd] rounded-[4px] outline-none font-inter transition-[border-color] duration-200 bg-white focus:border-(--color-brand)";
 const labelClass = "block text-[0.9rem] font-semibold mb-[0.6rem] font-inter tracking-[0.02em]";
 
+const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
+  ?? (import.meta.env.DEV ? "33069c99-9d68-4c41-9d00-9f2f81aa7f14" : "1e73894d-fcc9-4da3-b78e-2370e90dcf7f");
+
 export default function ContactForm() {
   const [result, setResult] = useState<"" | "Success!" | "Error">("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -13,7 +16,7 @@ export default function ContactForm() {
     setIsSubmitting(true);
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append("access_key", "14198fe1-3fff-4837-bc68-b1463ba5cef9");
+    formData.append("access_key", WEB3FORMS_ACCESS_KEY);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
