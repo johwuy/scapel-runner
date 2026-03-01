@@ -4,7 +4,7 @@ const inputClass = "w-full py-4 px-5 text-[1.05rem] border-2 border-[#ddd] round
 const labelClass = "block text-[0.9rem] font-semibold mb-[0.6rem] font-inter tracking-[0.02em]";
 
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
-  ?? (import.meta.env.DEV ? "33069c99-9d68-4c41-9d00-9f2f81aa7f14" : "1e73894d-fcc9-4da3-b78e-2370e90dcf7f");
+  ?? (import.meta.env.DEV ? "33069c99-9d68-4c41-9d00-9f2f81aa7f14" : "699ea172-356e-4f3c-8a65-51b928229d93");
 
 export default function ContactForm() {
   const [result, setResult] = useState<"" | "Success!" | "Error">("");
